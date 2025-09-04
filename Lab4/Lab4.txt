@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.
+
+-32765 =   0111 1111 1111 1101
+           invertendo
+           1000 0000 0000 0010
+                            +1
+
+           1000 0000 0000 0011
+      hex:   8    0   0    3
+
+32771 =    1000 0000 0000 0011
+      hex:   8    0    0    3
+
+Explicação: um numero representado para uma mmaquina é apenas uma sequência de bits, então o que determina ela de fato é qual tipo que voce esta se referindo (signed ou unsigned) que indica ao programa como interpretar esses bits.
+
+
+
+3.
