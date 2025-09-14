@@ -1,0 +1,9 @@
+1) 
+int b[2] - tem 8 bytes (pois é um vetor int, que tem 4 bytes cada posição) e a forma como é
+alocado é sequencialmente, por exemplo: se o primeiro elemento, b[0], estiver no endereço de
+memória 0x1000, o próximo elemento, b[1], estará no endereço 0x1004
+
+short a[2][3] -Tem 12 bytes (cada short tem 2 bytes, um bidimensional será 2*3 = 6, sendo 6*2 bytes = 12) e
+a forma como é alocado é linha por linha, primeiro armazena todo o a[0] e depois vai para o a[1], exemplo:
+no array a[2][3], armazenamos o a[0][0] a[0][1] a[0][2] e depois o a[1][0] a[1][1] e a[1][2]
+
